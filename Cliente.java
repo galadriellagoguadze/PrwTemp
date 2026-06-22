@@ -16,6 +16,9 @@ public class Cliente {
 		this.gasto += 89.90;
 	}
 	
+	public double getGasto() {
+		return gasto;
+	}
 	public void mudarPratoFav(String novoPrato) {
 		this.pratoFav = novoPrato;
 	}
@@ -40,7 +43,7 @@ public class Cliente {
 	}
 	@Override
 	public String toString() {
-		return "Cliente [nome=" + nome + ", email=" + email + ", pratoFav=" + pratoFav + ", gasto=" + gasto + "]";
+		return nome;
 	}
 	
 	
